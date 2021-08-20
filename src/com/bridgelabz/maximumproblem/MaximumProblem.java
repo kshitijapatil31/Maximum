@@ -3,7 +3,6 @@ package com.bridgelabz.maximumproblem;
 public class MaximumProblem {
 
 	public static void main(String[] args) {
-
 		Integer x1=new Integer(22);
 		Integer x2=new Integer(33);
 		Integer x3=new Integer (5);
