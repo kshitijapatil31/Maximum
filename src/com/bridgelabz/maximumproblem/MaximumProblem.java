@@ -27,9 +27,12 @@ public class MaximumProblem <T extends Comparable>{
 		}else if(x4.compareTo(x1)>0&& x4.compareTo(x2)>0&&x4.compareTo(x3)>0) {
 			max=x4;
 		}
-		System.out.println("maximum is : "+max);
+		printMax(x1,x2,x3,x4,max);
 		return max;
 		
+	}
+	public static <T> void printMax(T x1,T x2,T x3,T x4,T max) {
+		System.out.println("maximum is :"+max);
 	}
 	
 	public static void main(String[] args) {
