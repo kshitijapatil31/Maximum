@@ -3,9 +3,10 @@ package com.bridgelabz.maximumproblem;
 public class MaximumProblem {
 
 	public static void main(String[] args) {
-		Integer x1=new Integer(22);
-		Integer x2=new Integer(33);
-		Integer x3=new Integer (5);
+
+		Float x1=new Float(22.3);
+		Float x2=new Float(55.2);
+		Float x3=new Float (11.3);
 		
 		if(x1.compareTo(x2)>0&&x1.compareTo(x3)>0) {
 			System.out.println("maximum no is : "+x1);
@@ -16,6 +17,7 @@ public class MaximumProblem {
 		}
 	}
 }
+
 
 
 
